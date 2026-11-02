@@ -1,8 +1,9 @@
 # Deploys the static gallery to GitHub Pages on every push to main.
 #
-# Deliberately tokenless: MAPBOX_API is never set here, so the built bundle
-# contains no Mapbox key. Visitors add their own public token in the browser
-# ("Add token"), which stays in their local storage.
+# The build embeds the owner's public token (MAPBOX_API repo secret) so
+# visitors get working maps with zero setup. If the secret is absent, the
+# build is keyless and visitors add their own token in the browser instead.
+# Either way the secret itself is never committed anywhere.
 name: Deploy to GitHub Pages
 
 on:
@@ -30,6 +31,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+        env:
+          MAPBOX_API: ${{ secrets.MAPBOX_API }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

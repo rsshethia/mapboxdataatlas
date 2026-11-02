@@ -57,10 +57,11 @@ export function renderHowItWorks(view: HTMLElement): void {
       <p class="eyebrow">A note about keys</p>
       <p>
         Mapbox asks every map “who sent you?” — that is what the token is: a hall pass.
-        This site ships with <strong>no key at all</strong>. Press
-        <strong>Add token</strong>, paste a public key (it starts with
-        <code>pk.</code>, never use one starting with <code>sk.</code>), and it lives
-        in <em>your</em> browser only. There is no server here to steal it from —
+        This site brings its own: the author’s public key (it starts with
+        <code>pk.</code>, never one starting with <code>sk.</code>) is baked into these
+        pages and locked to this address, so it only works here. Prefer your own key?
+        Press <strong>Add token</strong> and yours takes over — it lives in
+        <em>your</em> browser only. There is no server here to steal anything from;
         this whole site is static files, basically a very clever pamphlet.
       </p>
     </div>

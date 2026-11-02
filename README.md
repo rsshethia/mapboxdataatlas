@@ -7,15 +7,15 @@ Thirty working maps that turn boring spreadsheets into pictures that make people
 
 > Independent project. Not affiliated with or endorsed by Mapbox. Mapbox® is a trademark of Mapbox, Inc.
 
-## The one thing you need: a key
+## Keys: yours, mine, or nobody's
 
-Maps aren't free to serve, so Mapbox asks every map *"who sent you?"* That is all a token is — a hall pass.
+Maps aren't free to serve, so Mapbox asks every map *"who sent you?"* That is all a token is — a hall pass. **On the live site, you're covered:** it ships with the author's public key, locked to that address. Just open it and poke around.
+
+Running your own copy, or curious how the sausage is made?
 
 1. Grab a free public key at [account.mapbox.com](https://account.mapbox.com/access-tokens/) (it starts with `pk.` — never use one starting with `sk.`, that one is a secret and secrets don't belong in browsers).
-2. Open this site, press **Add token** (top right), paste it.
-3. Done. It lives in *your* browser only. This site is static files — there is no server to steal it from.
-
-Going live with your own copy? Lock the key down first: URL restrictions + minimal scopes (Styles/Fonts read and tiles, plus Geocoding, Directions, and Isochrone if you want the three live examples). Details in `.env.example`.
+2. For local dev: put it in `.env` as `MAPBOX_API` — or skip the file and press **Add token** (top right) to paste it into the browser instead. Browser-pasted keys always win and live only in *your* browser.
+3. For your own live site: save the key as a `MAPBOX_API` repo secret (see Deploying below) and lock it down at Mapbox with URL restrictions + minimal scopes (Styles/Fonts read and tiles, plus Geocoding, Directions, and Isochrone if you want the three live examples). Details in `.env.example`.
 
 ## Run it on your machine
 
@@ -59,7 +59,11 @@ Your data (rows with addresses) + Mapbox's planet (tiles of streets and borders)
 
 Push to `main` — the included [workflow](.github/workflows/deploy.yml) builds and deploys automatically. Then enable it once: repo **Settings → Pages → Source: GitHub Actions**.
 
-The build is deliberately **keyless**: no token is set during deploy, so the published bundle contains zero secrets (verified: no `pk.` strings in `dist/`). Visitors bring their own key, which never leaves their browser. Hash routing (`#/…`) means no server config and no refresh-404s.
+The build bakes in **your** public key, so visitors get working maps with zero setup. To wire that up, add it once as a repo secret: **Settings → Secrets and variables → Actions → New repository secret**, name `MAPBOX_API`, value your `pk.` key. (No secret? The build still succeeds — it just falls back to asking each visitor for their own key.)
+
+Because any key shipped in a web page is visible by design, lock yours down at [account.mapbox.com](https://account.mapbox.com/access-tokens/): URL-restrict it to your site (e.g. `https://rsshethia.github.io/mapboxdataatlas/*`, plus `http://localhost:5173/*` if you want local dev to keep working) and keep only the scopes the gallery needs.
+
+Hash routing (`#/…`) means no server config and no refresh-404s.
 
 ## Data & credit
 
