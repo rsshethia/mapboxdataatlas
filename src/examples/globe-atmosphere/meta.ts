@@ -36,7 +36,7 @@ export const meta: ExampleMeta = {
       description: 'The 120 densest route pairs, drawn as great-circle arcs.',
       source: 'OpenFlights',
       license: 'ODbL 1.0',
-      url: 'https://openflights.org/data.html',
+      url: 'https://github.com/jpatokal/openflights',
       retrieved: '2026-11-02',
       rows: 120,
       fields: ['from', 'to', 'count'],

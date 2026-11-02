@@ -26,7 +26,7 @@ export const meta: ExampleMeta = {
       description: 'Airline route pairs with record counts, used as flow geometry.',
       source: 'OpenFlights',
       license: 'ODbL 1.0',
-      url: 'https://openflights.org/data.html',
+      url: 'https://github.com/jpatokal/openflights',
       retrieved: '2026-11-02',
       rows: 320,
       fields: ['from', 'to', 'count', 'distanceKm'],

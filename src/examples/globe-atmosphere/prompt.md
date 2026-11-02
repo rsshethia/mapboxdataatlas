@@ -43,7 +43,7 @@ Every change to the example must keep this story true. If the story stops matchi
 - **Populated places (1:50m)** — Natural Earth (Public domain). <https://www.naturalearthdata.com/downloads/50m-cultural-vectors/> Retrieved: 2026-11-02. Rows: 400. Fields: name, country, pop, lon, lat.
   The 400 largest cities by maximum population estimate.
 
-- **Airports and routes** — OpenFlights (ODbL 1.0). <https://openflights.org/data.html> Retrieved: 2026-11-02. Rows: 120. Fields: from, to, count.
+- **Airports and routes** — OpenFlights (ODbL 1.0). <https://github.com/jpatokal/openflights> Retrieved: 2026-11-02. Rows: 120. Fields: from, to, count.
   The 120 densest route pairs, drawn as great-circle arcs.
 
 ## Repo contract (must follow)

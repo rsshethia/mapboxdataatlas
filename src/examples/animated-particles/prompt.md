@@ -40,7 +40,7 @@ Every change to the example must keep this story true. If the story stops matchi
 
 ## Data
 
-- **Airports and routes** — OpenFlights (ODbL 1.0). <https://openflights.org/data.html> Retrieved: 2026-11-02. Rows: 320. Fields: from, to, count, distanceKm.
+- **Airports and routes** — OpenFlights (ODbL 1.0). <https://github.com/jpatokal/openflights> Retrieved: 2026-11-02. Rows: 320. Fields: from, to, count, distanceKm.
   The 320 densest airline route pairs from OpenFlights.
 
 ## Repo contract (must follow)
