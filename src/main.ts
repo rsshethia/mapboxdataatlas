@@ -33,14 +33,20 @@ app.innerHTML = `
     </header>
     <main id="view" class="view"></main>
     <footer class="site-footer">
-      <div>
-        <p class="wordmark wordmark--footer">Mapbox Data Atlas</p>
-        <p>An independent gallery of data visualization examples built with Mapbox GL JS.</p>
-      </div>
-      <div class="site-footer__meta">
-        <p>Maps © Mapbox © OpenStreetMap. Dataset licenses are listed in <a href="#/sources">Data &amp; sources</a>.</p>
-        <p>Not affiliated with or endorsed by Mapbox.</p>
-      </div>
+      <p class="site-footer__line">
+        <a class="wordmark" href="#/" aria-label="Mapbox Data Atlas home">
+          <span class="wordmark__mark" aria-hidden="true">M</span>
+          <span class="wordmark__text">Mapbox Data Atlas</span>
+        </a>
+        <span aria-hidden="true">·</span>
+        <span>Maps © Mapbox © OpenStreetMap</span>
+        <span aria-hidden="true">·</span>
+        <a href="#/sources">Data &amp; sources</a>
+        <span aria-hidden="true">·</span>
+        <span>Not affiliated with or endorsed by Mapbox</span>
+        <span aria-hidden="true">·</span>
+        <span class="site-footer__credit">Made with human curiosity and AI in Bendigo, VIC</span>
+      </p>
     </footer>
   </div>
 `;
