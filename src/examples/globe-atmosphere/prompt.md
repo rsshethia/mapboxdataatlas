@@ -14,6 +14,12 @@ Mapbox GL JS can render the world as a globe rather than a plane. The projection
 
 The data is deliberately familiar — major cities and air routes — so the projection itself is the subject. The slow orbit is a presentation aid, not a geographic claim.
 
+## The story
+
+Every flat map lies a little about distance; this one stops pretending. Spin the actual sphere and flight paths become what they really are — shortcuts arcing over a curved Earth.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Drag to spin the globe; scroll to zoom in until it flattens toward Mercator.

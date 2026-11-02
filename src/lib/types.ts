@@ -52,6 +52,8 @@ export interface ExampleMeta {
   title: string;
   category: CategoryId;
   blurb: string;
+  /** The human story behind the data: 1–3 sentences, plain words, no jargon. */
+  story: string;
   description: string[];
   interactions?: string[];
   techniques: string[];

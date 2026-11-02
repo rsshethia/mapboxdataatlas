@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'flows',
   blurb:
     'A cumulative year slider reveals the M6+ earthquake catalogue from 2000 to 2026, with size by magnitude and colour by depth.',
+  story:
+    'Drag twenty-six years of planetary restlessness with one finger. The dots pile up along the same guilty seams — the Ring of Fire earns its name, year after year.',
   description: [
     'Time is the third dimension most maps ignore. This example filters the earthquake catalogue with a cumulative year threshold: at 2010 the map shows every M6+ event up to that year, not just that year’s events.',
     'Circle size encodes magnitude and colour encodes depth, so the map reads as a catalogue rather than a single snapshot. Drag the slider to watch the catalogue accumulate.',

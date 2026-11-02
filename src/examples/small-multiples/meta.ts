@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'linked',
   blurb:
     'A 2×2 small-multiple of world indicators — population, density, income, and life expectancy — with a synchronised camera.',
+  story:
+    'Four questions, one planet: how many, how crowded, how rich, how long-lived. Same shapes, four answers — the comparison your eyes could never make by flipping between tabs.',
   description: [
     'Small multiples trade size for comparison. Four maps share one extent and one camera, so the eye can move between them without re-orienting. Each cell answers a different question about the same country shapes.',
     'The camera is linked both ways: dragging or zooming any cell moves the other three. Hovering works independently, so you can read a value in one panel while the others provide context.',

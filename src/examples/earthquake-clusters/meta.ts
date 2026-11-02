@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'The last 30 days of earthquakes as a clustered point layer: counts at low zoom, individual events up close.',
+  story:
+    'While you read this sentence, the ground is moving somewhere. This is the last month of tremors, gathered into crowds — zoom in and the crowd breaks apart into individual restless spots.',
   description: [
     'Clustering is the point-layer answer to overplotting. At low zoom the map shows clusters with a count; as you zoom in, clusters split until individual earthquakes remain.',
     'The size and colour of a cluster encode how many events it contains, while unclustered points are scaled and coloured by magnitude. Clicking a cluster expands it to the zoom where it splits.',

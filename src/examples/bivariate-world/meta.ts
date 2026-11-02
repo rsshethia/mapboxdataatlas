@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'A bivariate choropleth: each country is placed in a 3×3 grid of GDP per capita and life expectancy.',
+  story:
+    'Money cannot buy happiness, but the numbers suggest it rents extra years. Nine colours ask one question: where do wealth and long life travel together, and where do they part ways?',
   description: [
     'Two variables on one map can turn a choropleth into a puzzle. A bivariate scheme solves it by mixing nine colours: the horizontal axis is GDP per capita, the vertical axis is life expectancy at birth.',
     'Countries in the lower-left corner are poor and short-lived; the upper-right corner is rich and long-lived. The diagonal is the expected path — countries that leave it are the interesting ones.',

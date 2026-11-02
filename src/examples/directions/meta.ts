@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'apis',
   blurb:
     'Live Mapbox Directions routes between four city pairs, with driving, cycling, and walking profiles.',
+  story:
+    'Four American road trips, three ways to travel each. Driving wins on speed and walking wins on nothing whatsoever — except the story. Same endpoints, wildly different journeys.',
   description: [
     'The Directions API returns more than a line: distance, duration, and a full-resolution geometry that follows the street network. This example requests that geometry and draws it over the map with start and end markers.',
     'Each preset is a real pair of coordinates. Switching the profile or the pair sends a new request; the previous request is aborted so a slow response cannot overwrite a newer one. Responses are cached in memory for the session only.',

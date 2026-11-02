@@ -14,6 +14,12 @@ Playback turns a time series into a performance. Each tick advances one year, fi
 
 The animation is deliberate rather than continuous: the eye needs a moment to register each frame. Speed controls let you move from a slow survey to a quick overview.
 
+## The story
+
+Press play and a quarter-century of major quakes detonates one year at a time. Some years the planet mutters; some years it shouts — the counter keeps score.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Press play to step through 2000–2026.

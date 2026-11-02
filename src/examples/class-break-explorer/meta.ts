@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'The same population choropleth reclassified live with quantile, equal-interval, and natural-breaks methods.',
+  story:
+    'Same data, three different maps — and none of them are lying. Whoever picks the buckets picks the story, which is exactly why this page hands you the bucket-picker.',
   description: [
     'A choropleth is an argument about classification. Quantile breaks put the same number of countries in each class; equal intervals keep the same numeric width; natural breaks (Jenks) minimise within-class variance.',
     'Switch methods and class counts while watching the map and legend update together. The underlying values never change — only the cut points do.',

@@ -14,6 +14,12 @@ Clustering is the point-layer answer to overplotting. At low zoom the map shows 
 
 The size and colour of a cluster encode how many events it contains, while unclustered points are scaled and coloured by magnitude. Clicking a cluster expands it to the zoom where it splits.
 
+## The story
+
+While you read this sentence, the ground is moving somewhere. This is the last month of tremors, gathered into crowds — zoom in and the crowd breaks apart into individual restless spots.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Click a cluster to zoom to its expansion level.

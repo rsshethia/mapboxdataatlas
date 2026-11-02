@@ -14,6 +14,12 @@ The Directions API returns more than a line: distance, duration, and a full-reso
 
 Each preset is a real pair of coordinates. Switching the profile or the pair sends a new request; the previous request is aborted so a slow response cannot overwrite a newer one. Responses are cached in memory for the session only.
 
+## The story
+
+Four American road trips, three ways to travel each. Driving wins on speed and walking wins on nothing whatsoever — except the story. Same endpoints, wildly different journeys.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Choose a city pair, then switch between driving, cycling, and walking.

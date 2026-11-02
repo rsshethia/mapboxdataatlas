@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'linked',
   blurb:
     'A country scatter of GDP per capita against life expectancy, linked to the map by hover and click.',
+  story:
+    'Every dot is a country confessing two secrets: how rich, how long-lived. The upward drift is development’s oldest story — hover around to meet the rule-breakers.',
   description: [
     'A scatter shows the relationship; the map shows where it happens. Hovering a point highlights the country, and clicking a point flies the map to its bounds.',
     'GDP per capita is plotted on a log scale because the distribution spans four orders of magnitude. That choice makes the curvature of the income–longevity relationship visible instead of compressing most countries into a corner.',

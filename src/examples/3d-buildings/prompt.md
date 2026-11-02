@@ -14,6 +14,12 @@ Fill-extrusion reads height from the building tile attributes and renders each f
 
 Colour repeats the height variable so the skyline remains legible in a still frame. The vertical exaggeration control scales both height and the base offset, keeping the geometry consistent.
 
+## The story
+
+Manhattan is a bar chart that learned to charge rent. Every block’s height comes from real building data — the island’s wealth, quite literally stacked.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Right-drag (or Ctrl-drag) to tilt; drag to rotate.

@@ -14,6 +14,12 @@ A heatmap is a density surface, not a count. Each earthquake contributes weight 
 
 The long catalogue spans 2000–2026 and is filtered to magnitude 6 and above, which reveals the tectonic plate boundaries. The 30-day view keeps smaller events and shows how the same boundaries stay active.
 
+## The story
+
+Nearly four thousand times in twenty-six years, the ground moved hard enough to make the history books. The glow does not scatter randomly — it traces the seams where the planet’s plates shove past each other.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Switch between the 26-year catalogue and the last 30 days.

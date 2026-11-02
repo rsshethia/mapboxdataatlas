@@ -14,6 +14,12 @@ A ranked bar chart is often clearer than a choropleth for “who is biggest?”.
 
 Hovering a bar highlights the country geometry; clicking zooms to its bounds. The map stays neutral so the highlighted country is the only strong colour on screen.
 
+## The story
+
+Twelve bars hold over half of humanity. Click one and the map flies off to meet the members of the billion-plus club.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Hover a bar to highlight the country.

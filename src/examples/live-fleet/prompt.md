@@ -14,6 +14,12 @@ Moving assets are a common map problem: vehicles, deliveries, sensors. The patte
 
 This fleet is generated locally. Each vehicle has a path, a speed, a direction, and a status; a requestAnimationFrame ticker advances positions and rewrites one GeoJSON source. No external feed is involved, and the panel says so.
 
+## The story
+
+Eighteen make-believe vans rattle around San Francisco on a strict timetable. They are not real — but the pattern is: this is exactly how delivery dashboards watch the world move.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Press play to start the simulation clock.

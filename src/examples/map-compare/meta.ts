@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'apis',
   blurb:
     'A single map that crossfades between population density and life expectancy, with a slider controlling the blend.',
+  story:
+    'Crowded places, long lives — do the two rhyme? Drag the slider and watch one truth dissolve into the other across the exact same borders.',
   description: [
     'A side-by-side comparison splits attention and screen space. A crossfade keeps one map and one camera, letting you read the same country shapes as one variable dissolves into another.',
     'Both layers share the same source geometry and use quantile classes computed independently. At the midpoint you see a hybrid; at either end you get a clean single-variable choropleth.',

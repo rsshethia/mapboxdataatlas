@@ -14,6 +14,12 @@ Fill-extrusion turns a flat choropleth into a landscape. Here the height of each
 
 Height is not area: the vertical axis uses an interpolated scale capped well below the tallest state’s raw value, and the colour ramp repeats the same variable so the map remains readable without the 3D cue.
 
+## The story
+
+From an airplane America looks gloriously empty. Raise the floor by density and the truth pops up: the Northeast rears like a wave while the Mountain West stays pancake-flat.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Drag with the right mouse button (or Ctrl-drag) to tilt and rotate.

@@ -14,6 +14,12 @@ The same variable — people per square kilometre — is drawn at two levels of 
 
 Both layers use quantile classes computed independently, so each geography gets a legible legend. The legend swaps automatically with the visible layer.
 
+## The story
+
+Texas looks uniformly Texan until you zoom in and its cities ignite. Averages lie by smoothing everything out — so this map changes its mind about geography the closer you look.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Zoom into a state to watch the county layer take over.

@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'apis',
   blurb:
     'A composed PNG export: Mapbox renders the WebGL canvas, then the example adds a title, legend, and attribution before download.',
+  story:
+    'A map on screen is a performance; an exported PNG is the recording. This one signs its work — title, legend, attribution — before it leaves the building.',
   description: [
     'Mapbox renders into a WebGL canvas, so exporting a map is a canvas operation — but a raw canvas is not a finished graphic. This example composes the map with a paper-coloured title bar, a density legend, and the required Mapbox and OpenStreetMap attribution.',
     'The map is created with `preserveDrawingBuffer: true`, which keeps the last frame readable by `toBlob`. That flag has a small performance cost, so it is used only on this page.',

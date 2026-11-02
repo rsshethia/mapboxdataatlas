@@ -14,6 +14,12 @@ A terrain map answers “how high?” only approximately. This example samples t
 
 Hovering the chart moves a marker on the map, connecting the abstract profile to the actual place. The same route geometry powers both views, so distance and position stay consistent.
 
+## The story
+
+Seattle sits at sea level, and the road south immediately starts misbehaving — climbing passes, diving valleys, flirting with clouds. The chart walks every metre of it while the marker keeps its feet on the ground.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Hover the profile to move the marker along the route.

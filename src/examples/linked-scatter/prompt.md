@@ -14,6 +14,12 @@ A scatter shows the relationship; the map shows where it happens. Hovering a poi
 
 GDP per capita is plotted on a log scale because the distribution spans four orders of magnitude. That choice makes the curvature of the income–longevity relationship visible instead of compressing most countries into a corner.
 
+## The story
+
+Every dot is a country confessing two secrets: how rich, how long-lived. The upward drift is development’s oldest story — hover around to meet the rule-breakers.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Hover a point to highlight its country on the map.

@@ -14,6 +14,12 @@ Hexbins turn thousands of overlapping points into a regular surface. Each city c
 
 Because H3 cells have equal area, the map avoids the area distortion that makes large, empty countries look important in a choropleth. The result is a quick read of where the world’s urban population concentrates.
 
+## The story
+
+Humanity does not spread out — it clumps along rivers, coasts, and deltas. Each hexagon adds up everyone living inside it, so the great clumps of the Ganges, the Nile, and eastern China light up like embers.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Hover a cell to see its summed population and city count.

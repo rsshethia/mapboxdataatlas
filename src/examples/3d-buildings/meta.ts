@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'three-d',
   blurb:
     'Mapbox building footprints raised into a 3D city, coloured by height and viewed from a low pitch.',
+  story:
+    'Manhattan is a bar chart that learned to charge rent. Every block’s height comes from real building data — the island’s wealth, quite literally stacked.',
   description: [
     'Fill-extrusion reads height from the building tile attributes and renders each footprint as a block. The result is not a photoreal model — it is a data-driven massing study you can tilt, rotate, and inspect.',
     'Colour repeats the height variable so the skyline remains legible in a still frame. The vertical exaggeration control scales both height and the base offset, keeping the geometry consistent.',

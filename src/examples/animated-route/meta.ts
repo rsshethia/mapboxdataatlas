@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'flows',
   blurb:
     'A vehicle marker travels the Mapbox Directions route from Seattle to San Diego, drawing the path as it goes.',
+  story:
+    'Fourteen hundred kilometres of coastline, one small dot with somewhere to be. Watch the whole Pacific edge unspool beneath it — the drive everyone dreams about in traffic.',
   description: [
     'A route is a line with a direction and a duration. This example animates a marker along the simplified geometry, revealing the path progressively instead of showing it all at once.',
     'The progress line is rebuilt each frame from the route coordinates, while the marker position is interpolated inside the current segment. The camera can follow along or stay fixed.',

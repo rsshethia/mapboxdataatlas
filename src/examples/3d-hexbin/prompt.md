@@ -14,6 +14,12 @@ Extruding a hexbin adds a second encoding without adding a second map. Each H3 c
 
 The colour ramp repeats the same total, which keeps the map readable when the camera is low. Change the H3 resolution to see how scale changes the shape of the skyline.
 
+## The story
+
+If every city’s population were stacked as bricks, the world would look like this skyline: a few dizzying towers over Asia, and low suburbs almost everywhere else.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Drag to rotate and tilt the extruded hexagons.

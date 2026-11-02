@@ -14,6 +14,12 @@ A choropleth is an argument about classification. Quantile breaks put the same n
 
 Switch methods and class counts while watching the map and legend update together. The underlying values never change — only the cut points do.
 
+## The story
+
+Same data, three different maps — and none of them are lying. Whoever picks the buckets picks the story, which is exactly why this page hands you the bucket-picker.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Compare quantile and equal-interval classes on the same data.

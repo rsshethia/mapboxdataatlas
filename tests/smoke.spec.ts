@@ -30,6 +30,7 @@ test('world-choropleth renders with map attribution', async ({ page }) => {
   const attribution = stage.locator('.mapboxgl-ctrl-attrib');
   await expect(attribution).toHaveCount(1);
   await expect(attribution).toContainText(/Mapbox|OpenStreetMap/);
+  await expect(page.locator('.example-story')).not.toBeEmpty();
 });
 
 test('small-multiples links four maps and cleans up', async ({ page }) => {

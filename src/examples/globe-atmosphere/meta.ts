@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'three-d',
   blurb:
     'The same city and flight data on a globe projection, with atmosphere, space colour, and a slow orbit.',
+  story:
+    'Every flat map lies a little about distance; this one stops pretending. Spin the actual sphere and flight paths become what they really are — shortcuts arcing over a curved Earth.',
   description: [
     'Mapbox GL JS can render the world as a globe rather than a plane. The projection changes how distance and direction read, and it gives the map a horizon, atmosphere, and space colour.',
     'The data is deliberately familiar — major cities and air routes — so the projection itself is the subject. The slow orbit is a presentation aid, not a geographic claim.',

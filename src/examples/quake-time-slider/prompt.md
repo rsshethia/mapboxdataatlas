@@ -14,6 +14,12 @@ Time is the third dimension most maps ignore. This example filters the earthquak
 
 Circle size encodes magnitude and colour encodes depth, so the map reads as a catalogue rather than a single snapshot. Drag the slider to watch the catalogue accumulate.
 
+## The story
+
+Drag twenty-six years of planetary restlessness with one finger. The dots pile up along the same guilty seams — the Ring of Fire earns its name, year after year.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Drag the year slider to accumulate events.

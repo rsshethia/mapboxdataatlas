@@ -14,6 +14,12 @@ Static arcs show where flows exist; moving particles show that they have a direc
 
 The animation is a ticking GeoJSON source: every frame rewrites one point per route. It is a deliberately simple technique — no custom WebGL — that stays smooth for a few hundred particles.
 
+## The story
+
+Static lines say routes exist; moving dots say somebody is actually up there right now, tray table down, halfway across an ocean.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Watch the dominant west-to-east and north-south corridors.

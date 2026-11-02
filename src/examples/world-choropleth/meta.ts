@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'A quantile choropleth of population by country, with a switch between total population and people per square kilometre.',
+  story:
+    'Two countries hold more than a third of all humanity, and most maps flatten them into one boring colour. This one refuses — then flip to density and watch tiny crowded city-states outshout entire continents.',
   description: [
     'Population is extremely skewed: a handful of countries hold most of the world’s people. Quantile breaks put the same number of countries in each colour class, which makes the map legible without hiding the outliers.',
     'Switch to population density to see the same geometry tell a different story. The classes are recalculated for each metric, so the legend always matches the colours on the map.',

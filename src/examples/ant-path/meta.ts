@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'flows',
   blurb:
     'An animated dash pattern sends pulses along air routes, a low-cost way to imply direction on static geometry.',
+  story:
+    'Ants solved logistics millions of years before airlines: just follow the glowing trail. These pulses march the same lanes real aircraft fly, giving direction to lines that never move.',
   description: [
     'A dashed line is static. Animating the dash pattern — the classic “marching ants” effect — gives the eye a direction without a particle system or custom shader.',
     'The pattern is a rotating numeric array written to `line-dasharray`. Because the array repeats, shifting it by one step produces continuous motion. The animation is throttled so the paint update stays cheap.',

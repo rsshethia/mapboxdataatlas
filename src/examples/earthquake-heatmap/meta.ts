@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'A magnitude-weighted heatmap of 3,997 earthquakes, with a switch between the long catalogue and the last 30 days.',
+  story:
+    'Nearly four thousand times in twenty-six years, the ground moved hard enough to make the history books. The glow does not scatter randomly — it traces the seams where the planet’s plates shove past each other.',
   description: [
     'A heatmap is a density surface, not a count. Each earthquake contributes weight proportional to its magnitude, so a cluster of small tremors does not read the same as a single great quake.',
     'The long catalogue spans 2000–2026 and is filtered to magnitude 6 and above, which reveals the tectonic plate boundaries. The 30-day view keeps smaller events and shows how the same boundaries stay active.',

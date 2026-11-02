@@ -14,6 +14,12 @@ Two variables on one map can turn a choropleth into a puzzle. A bivariate scheme
 
 Countries in the lower-left corner are poor and short-lived; the upper-right corner is rich and long-lived. The diagonal is the expected path — countries that leave it are the interesting ones.
 
+## The story
+
+Money cannot buy happiness, but the numbers suggest it rents extra years. Nine colours ask one question: where do wealth and long life travel together, and where do they part ways?
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Hover a country to read both values and its 3×3 class.

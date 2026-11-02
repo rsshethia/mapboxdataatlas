@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'flows',
   blurb:
     'An animated year-by-year playback of the M6+ catalogue, with a cumulative count and the largest event of each year.',
+  story:
+    'Press play and a quarter-century of major quakes detonates one year at a time. Some years the planet mutters; some years it shouts — the counter keeps score.',
   description: [
     'Playback turns a time series into a performance. Each tick advances one year, filters the catalogue cumulatively, and updates a readout of the largest event in that year.',
     'The animation is deliberate rather than continuous: the eye needs a moment to register each frame. Speed controls let you move from a slow survey to a quick overview.',

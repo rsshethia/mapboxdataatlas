@@ -14,6 +14,12 @@ A route is a line with a direction and a duration. This example animates a marke
 
 The progress line is rebuilt each frame from the route coordinates, while the marker position is interpolated inside the current segment. The camera can follow along or stay fixed.
 
+## The story
+
+Fourteen hundred kilometres of coastline, one small dot with somewhere to be. Watch the whole Pacific edge unspool beneath it — the drive everyone dreams about in traffic.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Press play to travel the route, or drag the progress slider.

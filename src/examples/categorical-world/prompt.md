@@ -14,6 +14,12 @@ Not every choropleth needs a numeric scale. Categorical maps answer “which gro
 
 Region is geographic by construction, so the map mostly confirms what you already know. Income group is more revealing: it cuts across continents and shows the middle-income belt that stretches from Latin America through Africa to Southeast Asia.
 
+## The story
+
+Before asking how much, ask which club. The world sorts itself into neighbourhoods of region and income, and the map of belonging looks nothing like the map of wealth.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Switch between region and income group in the panel.

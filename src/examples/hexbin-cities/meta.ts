@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'Cities are binned into H3 hexagons, summing population so dense urban regions become visible cells.',
+  story:
+    'Humanity does not spread out — it clumps along rivers, coasts, and deltas. Each hexagon adds up everyone living inside it, so the great clumps of the Ganges, the Nile, and eastern China light up like embers.',
   description: [
     'Hexbins turn thousands of overlapping points into a regular surface. Each city contributes its population to one H3 cell; the cell colour is the total population binned inside it.',
     'Because H3 cells have equal area, the map avoids the area distortion that makes large, empty countries look important in a choropleth. The result is a quick read of where the world’s urban population concentrates.',

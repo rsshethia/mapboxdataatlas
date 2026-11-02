@@ -14,6 +14,12 @@ Air routes are flows, not regions. Drawing them as great-circle arcs shows the a
 
 Line width encodes how many airline route records connect a pair of airports, while colour encodes distance. Together they separate short, dense shorthaul networks from long, sparse intercontinental links.
 
+## The story
+
+Every arc is a queue of people who decided somewhere else would be better for a while. The busiest threads stitch the same few mega-hubs together, over and over, day after day.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Hover an arc for airports, countries, route records, and distance.

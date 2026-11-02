@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'flows',
   blurb:
     'Moving points travel along great-circle arcs, animating the direction and volume of the world’s air network.',
+  story:
+    'Static lines say routes exist; moving dots say somebody is actually up there right now, tray table down, halfway across an ocean.',
   description: [
     'Static arcs show where flows exist; moving particles show that they have a direction. Each particle follows the same great-circle path as its route, at a speed scaled to route length.',
     'The animation is a ticking GeoJSON source: every frame rewrites one point per route. It is a deliberately simple technique — no custom WebGL — that stays smooth for a few hundred particles.',

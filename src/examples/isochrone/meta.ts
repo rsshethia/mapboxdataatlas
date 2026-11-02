@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'apis',
   blurb:
     'Live isochrone contours from the Mapbox Isochrone API: what you can reach in 10, 20, and 30 minutes by road, bike, or on foot.',
+  story:
+    'Stand in Copenhagen and draw what freedom looks like: everything ten, twenty, thirty minutes away. Not as the crow flies — as the bicycle actually pedals, one-way streets and bridges included.',
   description: [
     'An isochrone is a contour of equal travel time. Unlike a buffer, it respects the street network, coastlines, and one-way restrictions, so the shape is a picture of accessibility rather than distance.',
     'This example calls the Mapbox Isochrone API each time you change the travel mode or the time bands. Requests are isolated to this page and aborted when you navigate away; no response is cached or bundled.',

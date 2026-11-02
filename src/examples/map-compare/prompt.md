@@ -14,6 +14,12 @@ A side-by-side comparison splits attention and screen space. A crossfade keeps o
 
 Both layers share the same source geometry and use quantile classes computed independently. At the midpoint you see a hybrid; at either end you get a clean single-variable choropleth.
 
+## The story
+
+Crowded places, long lives — do the two rhyme? Drag the slider and watch one truth dissolve into the other across the exact same borders.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Drag the blend slider from density to life expectancy.

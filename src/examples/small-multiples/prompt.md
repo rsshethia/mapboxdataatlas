@@ -14,6 +14,12 @@ Small multiples trade size for comparison. Four maps share one extent and one ca
 
 The camera is linked both ways: dragging or zooming any cell moves the other three. Hovering works independently, so you can read a value in one panel while the others provide context.
 
+## The story
+
+Four questions, one planet: how many, how crowded, how rich, how long-lived. Same shapes, four answers — the comparison your eyes could never make by flipping between tabs.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Drag or zoom any cell — all four maps follow.

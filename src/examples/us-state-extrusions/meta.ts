@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'US states raised into 3D blocks by population density, with colour reinforcing the same measure.',
+  story:
+    'From an airplane America looks gloriously empty. Raise the floor by density and the truth pops up: the Northeast rears like a wave while the Mountain West stays pancake-flat.',
   description: [
     'Fill-extrusion turns a flat choropleth into a landscape. Here the height of each state is a function of population density, so the Northeast rises above the Mountain West.',
     'Height is not area: the vertical axis uses an interpolated scale capped well below the tallest state’s raw value, and the colour ramp repeats the same variable so the map remains readable without the 3D cue.',

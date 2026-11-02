@@ -14,6 +14,12 @@ Mapbox renders into a WebGL canvas, so exporting a map is a canvas operation —
 
 The map is created with `preserveDrawingBuffer: true`, which keeps the last frame readable by `toBlob`. That flag has a small performance cost, so it is used only on this page.
 
+## The story
+
+A map on screen is a performance; an exported PNG is the recording. This one signs its work — title, legend, attribution — before it leaves the building.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Press “Download PNG” to render and save the current view.

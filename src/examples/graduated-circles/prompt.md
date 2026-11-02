@@ -14,6 +14,12 @@ A point layer does what a choropleth cannot: it shows where people actually live
 
 The filter switches between the 200 largest cities, the 600 largest, and every place in the snapshot. Circle size does not change between views, so the comparison stays honest.
 
+## The story
+
+Countries are boxes that politicians drew; people ignore them completely. These 1,250 dots are where humanity actually sleeps — and the biggest dots hold more residents than most countries.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Hover a circle for its city, country, and population.

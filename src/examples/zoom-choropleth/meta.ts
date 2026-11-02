@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'A choropleth that changes geography with zoom: states at the national scale, counties once you zoom in.',
+  story:
+    'Texas looks uniformly Texan until you zoom in and its cities ignite. Averages lie by smoothing everything out — so this map changes its mind about geography the closer you look.',
   description: [
     'The same variable — people per square kilometre — is drawn at two levels of detail. At the national view the states carry the pattern; below zoom 5 the counties take over, revealing the metropolitan cores hidden inside state averages.',
     'Both layers use quantile classes computed independently, so each geography gets a legible legend. The legend swaps automatically with the visible layer.',

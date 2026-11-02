@@ -79,6 +79,14 @@ function promptFor(meta) {
     ...meta.description.flatMap((paragraph) => [paragraph, '']),
   ];
 
+  lines.push(
+    '## The story',
+    '',
+    meta.story,
+    '',
+    'Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.',
+    '',
+  );
   if (meta.interactions?.length) {
     lines.push('## Things a visitor can try', '');
     for (const item of meta.interactions) lines.push(`- ${item}`);

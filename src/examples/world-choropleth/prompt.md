@@ -14,6 +14,12 @@ Population is extremely skewed: a handful of countries hold most of the world’
 
 Switch to population density to see the same geometry tell a different story. The classes are recalculated for each metric, so the legend always matches the colours on the map.
 
+## The story
+
+Two countries hold more than a third of all humanity, and most maps flatten them into one boring colour. This one refuses — then flip to density and watch tiny crowded city-states outshout entire continents.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Switch between population and density in the panel.

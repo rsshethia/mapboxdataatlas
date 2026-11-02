@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'three-d',
   blurb:
     'H3 hexagons extruded by summed city population, turning a flat hexbin into a skyline of urban regions.',
+  story:
+    'If every city’s population were stacked as bricks, the world would look like this skyline: a few dizzying towers over Asia, and low suburbs almost everywhere else.',
   description: [
     'Extruding a hexbin adds a second encoding without adding a second map. Each H3 cell is raised by the population of the cities inside it, so the tallest columns are the world’s largest urban agglomerations.',
     'The colour ramp repeats the same total, which keeps the map readable when the camera is low. Change the H3 resolution to see how scale changes the shape of the skyline.',

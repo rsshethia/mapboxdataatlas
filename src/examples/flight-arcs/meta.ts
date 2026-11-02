@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'flows',
   blurb:
     'Great-circle arcs for 320 airline routes, with line width by route count and colour by distance.',
+  story:
+    'Every arc is a queue of people who decided somewhere else would be better for a while. The busiest threads stitch the same few mega-hubs together, over and over, day after day.',
   description: [
     'Air routes are flows, not regions. Drawing them as great-circle arcs shows the actual path an aircraft takes over the sphere rather than a straight line in Mercator.',
     'Line width encodes how many airline route records connect a pair of airports, while colour encodes distance. Together they separate short, dense shorthaul networks from long, sparse intercontinental links.',

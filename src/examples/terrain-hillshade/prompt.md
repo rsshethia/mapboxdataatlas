@@ -14,6 +14,12 @@ A raster elevation model can do two jobs at once: a hillshade layer shades the s
 
 The exaggeration slider changes only the terrain displacement, not the hillshade. At higher values the relief is dramatic but the shading stays honest, which is why the two controls are separate.
 
+## The story
+
+Mountains are the planet refusing to be flat. Here one elevation model does double duty: shading the map like an old atlas while physically lifting the ground under your cursor.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Tilt and rotate the map to see the Front Range in relief.

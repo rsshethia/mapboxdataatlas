@@ -14,6 +14,12 @@ An isochrone is a contour of equal travel time. Unlike a buffer, it respects the
 
 This example calls the Mapbox Isochrone API each time you change the travel mode or the time bands. Requests are isolated to this page and aborted when you navigate away; no response is cached or bundled.
 
+## The story
+
+Stand in Copenhagen and draw what freedom looks like: everything ten, twenty, thirty minutes away. Not as the crow flies — as the bicycle actually pedals, one-way streets and bridges included.
+
+Every change to the example must keep this story true. If the story stops matching the data, update `meta.ts` and re-run `npm run prompts`.
+
 ## Things a visitor can try
 
 - Switch between driving, cycling, and walking.

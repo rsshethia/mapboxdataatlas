@@ -141,6 +141,7 @@ export async function renderExample(
     )} · ${escapeHtml(meta.difficulty)}${meta.live ? ' · live API' : ''}</p>
     <h1>${escapeHtml(meta.title)}</h1>
     <p class="example-header__lede">${escapeHtml(meta.blurb)}</p>
+    <p class="example-story"><span class="example-story__label">The story</span>${escapeHtml(meta.story)}</p>
     <div class="chips">
       ${meta.live ? '<span class="chip chip--live">Live API</span>' : ''}
       ${meta.techniques.map((technique) => `<span class="chip">${escapeHtml(technique)}</span>`).join('')}

@@ -7,6 +7,8 @@ export const meta: ExampleMeta = {
   category: 'thematic',
   blurb:
     'Countries coloured by World Bank region, with a switch to income group — no class breaks, just categories.',
+  story:
+    'Before asking how much, ask which club. The world sorts itself into neighbourhoods of region and income, and the map of belonging looks nothing like the map of wealth.',
   description: [
     'Not every choropleth needs a numeric scale. Categorical maps answer “which group does this belong to?” and are the right choice for regions, income bands, or governance types.',
     'Region is geographic by construction, so the map mostly confirms what you already know. Income group is more revealing: it cuts across continents and shows the middle-income belt that stretches from Latin America through Africa to Southeast Asia.',
