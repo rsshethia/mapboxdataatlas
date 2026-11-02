@@ -22,10 +22,14 @@ function shortName(name: string): string {
 
 export async function mount(ctx: ExampleContext): Promise<void> {
   const { container } = ctx;
-  const map = createMap(container, {
+  container.classList.add('example-map--linked');
+  const mapHost = document.createElement('div');
+  mapHost.className = 'linked-layout__map';
+  container.append(mapHost);
+  const map = createMap(mapHost, {
     style: 'mapbox://styles/mapbox/light-v11',
-    center: [12, 18],
-    zoom: 1.3,
+    center: [10, 22],
+    zoom: 1,
   });
   ctx.onCleanup(() => map.remove());
 

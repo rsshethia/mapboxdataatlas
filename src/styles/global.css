@@ -1901,6 +1901,53 @@ h3 {
   color: var(--muted);
 }
 
+/* linked views: the chart docks as a right-hand rail so the map owns the left
+   instead of hiding underneath an overlay panel. */
+
+.example-map--linked {
+  display: flex;
+  align-items: stretch;
+}
+
+.example-map--linked .linked-layout__map {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+.example-map--linked .profile-panel--side {
+  position: static;
+  flex: 0 0 360px;
+  width: 360px;
+  max-height: none;
+  overflow-y: auto;
+  border: 0;
+  border-left: 1px solid var(--ink);
+  border-radius: 0;
+  background: var(--paper);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+@media (max-width: 760px) {
+  .example-map--linked {
+    flex-direction: column;
+  }
+
+  .example-map--linked .linked-layout__map {
+    flex: 1 1 56%;
+  }
+
+  .example-map--linked .profile-panel--side {
+    flex: 0 1 auto;
+    width: auto;
+    border-left: 0;
+    border-top: 1px solid var(--ink);
+    min-height: 0;
+  }
+}
+
 .profile-focus-label {
   font-family: var(--mono);
   font-size: 9px;

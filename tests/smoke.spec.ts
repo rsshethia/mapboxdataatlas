@@ -19,6 +19,22 @@ test('how-it-works explains the pipeline without maps', async ({ page }) => {
   await expect(page.locator('canvas.mapboxgl-canvas')).toHaveCount(0);
 });
 
+test('linked-scatter docks the chart beside the map', async ({ page }) => {
+  await page.goto('/#/e/linked-scatter', { waitUntil: 'domcontentloaded' });
+  const stage = page.locator('[data-example-id="linked-scatter"]');
+  await expect(stage).toHaveAttribute('data-example-ready', 'true', {
+    timeout: READY_TIMEOUT,
+  });
+  const mapBox = await stage.locator('.linked-layout__map').boundingBox();
+  const panelBox = await stage.locator('.profile-panel--side').boundingBox();
+  expect(mapBox).not.toBeNull();
+  expect(panelBox).not.toBeNull();
+  // Rail sits to the right of the map instead of covering it.
+  expect(panelBox!.x).toBeGreaterThanOrEqual(mapBox!.x + mapBox!.width - 1);
+  expect(panelBox!.width).toBeGreaterThan(200);
+  expect(mapBox!.width).toBeGreaterThan(300);
+});
+
 test('world-choropleth renders with map attribution', async ({ page }) => {
   await page.goto('/#/e/world-choropleth', { waitUntil: 'domcontentloaded' });
   const stage = page.locator('[data-example-id="world-choropleth"]');
