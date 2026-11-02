@@ -198,6 +198,20 @@ pre {
   color: var(--accent-text);
 }
 
+.site-nav__github {
+  display: inline-flex;
+  align-items: center;
+  color: var(--ink-soft);
+}
+
+.site-nav__github:hover {
+  color: var(--ink);
+}
+
+.site-nav__github svg {
+  display: block;
+}
+
 .token-status {
   display: inline-flex;
   align-items: center;

@@ -9,6 +9,9 @@ test('gallery lists 30 examples without loading maps', async ({ page }) => {
   await expect(page.locator('.card')).toHaveCount(30);
   await expect(page.locator('canvas.mapboxgl-canvas')).toHaveCount(0);
   await expect(page.locator('.site-nav a[href="#/how-it-works"]')).toHaveCount(1);
+  const github = page.locator('.site-nav__github');
+  await expect(github).toHaveAttribute('href', 'https://github.com/rsshethia/mapboxdataatlas');
+  await expect(github).toHaveAttribute('target', '_blank');
 });
 
 test('how-it-works explains the pipeline without maps', async ({ page }) => {
